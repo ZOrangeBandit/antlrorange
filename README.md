@@ -10,7 +10,7 @@ A modification of quick Antlr4 Java example.  The example uses antlr4-maven-plug
   "value": "File",  
   "popup": {  
     "menuitem": [
-       ̶{̶value": "New", "onclick": "CreateDoc()"},  
+      ̶{̶value": "New", "onclick": "CreateDoc()"},  
       {"value": "Open", "onclick": "OpenDoc()"},  
       {"value": "Save", "onclick": "SaveDoc()"}  
     ]  
