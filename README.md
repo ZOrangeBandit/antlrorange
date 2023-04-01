@@ -6,11 +6,11 @@
 A modification of quick Antlr4 Java example.  The example uses antlr4-maven-plugin to compile the grammar [JSON.g4](https://github.com/antlr/grammars-v4/tree/master/json) and parse example json objects, with a slight difference.　Example 1 includes the quote, and Example 2 excludes it, making the object syntactically invalid.
 ```
 {"menu": {  
-  ~~"~~id": "file",  
+  "id": "file",  
   "value": "File",  
   "popup": {  
     "menuitem": [
-      "value": "New", "onclick": "CreateDoc()"},  
+       ̶{̶value": "New", "onclick": "CreateDoc()"},  
       {"value": "Open", "onclick": "OpenDoc()"},  
       {"value": "Save", "onclick": "SaveDoc()"}  
     ]  
